@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 100px;
+}
+
+.container div{
+    width: 200px;
+    height: 200px;
+}
+
+.container #div-azul{
+    background-color: blue;
+}
+
+.container #div-rojo{
+    background-color: red;
+}
+
+.container > #div-verde{
+    background-color: green;
+}
+
+.container > #div-amarillo{
+    background-color: yellow;
+}
